@@ -14,6 +14,7 @@ public class DestroybyContact1 : MonoBehaviour
         if (collision.collider.tag == "Boundary1")
             return;
 
+        Debug.Log($"{name} is colliding with {collision.gameObject.name}");
         if (collision.collider.gameObject.CompareTag("Player"))
         {
             Instantiate(playerExplosion, collision.transform.position, collision.transform.rotation);
@@ -47,3 +48,6 @@ public class DestroybyContact1 : MonoBehaviour
 }
 
 
+//obserer pattern
+//state machine
+//cpmmand pattern

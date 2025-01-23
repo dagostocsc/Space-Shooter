@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6fc9f321eafab6c4eb0e51a51817c086
+timeCreated: 1505499871
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/VFX/Materials/Ef_Enemy_Smoke_01.mat
+  uploadId: 201218

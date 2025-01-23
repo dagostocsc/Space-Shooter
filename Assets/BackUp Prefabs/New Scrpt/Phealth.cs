@@ -15,7 +15,7 @@ public class Phealth : MonoBehaviour
         PH.SetMaxHealth(MaxplayerHealth);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTrigggerEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemies") || collision.gameObject.CompareTag("EnemyShip"))
         {

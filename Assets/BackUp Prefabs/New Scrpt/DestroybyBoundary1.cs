@@ -7,6 +7,7 @@ public class DestroybyBoundary1 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerExit(Collider collision)
     {
+        Debug.Log($"{name} is colliding with {collision.name}");
         if(collision.gameObject.CompareTag("Enemies") || collision.gameObject.CompareTag("EnemyShip"))
         Destroy(collision.gameObject);
     }

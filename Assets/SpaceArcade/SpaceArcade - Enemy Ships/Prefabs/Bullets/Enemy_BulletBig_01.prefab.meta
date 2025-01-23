@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4fefe03907a118a498258d4a5d07e56d
+timeCreated: 1505491084
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/Prefabs/Bullets/Enemy_BulletBig_01.prefab
+  uploadId: 201218

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a9b9c609be392774f9a431eab726e597
+timeCreated: 1505500054
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/VFX/Materials/Ef_Glow_Green_01.mat
+  uploadId: 201218
