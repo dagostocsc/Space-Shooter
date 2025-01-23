@@ -1,3 +1,5 @@
+This 2D space shooter game is intended to deliver fast-paced action as players pilot a spacecraft to shoot and destroy enemies and objects while avoiding destruction themselves. Featuring dynamic gameplay and engaging mechanics, the game is intended to offer an exciting and challenging space combat experience. Currently a work in progress, it aims to provide players with  battles and interactive obstacles in a vibrant 2D universe.
+
 Most of what I used is in the BackupPreFab Folder & NewPrefabs Folder
 
 ![Screenshot 2025-01-23 100500](https://github.com/user-attachments/assets/a11eaa70-2f89-41b1-ae0e-757e919b8af7)
