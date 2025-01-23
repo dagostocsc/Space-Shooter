@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d9da7bc492999c548825c3afd5686d76
+timeCreated: 1505490216
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/Scripts/EnemyMover.cs
+  uploadId: 201218

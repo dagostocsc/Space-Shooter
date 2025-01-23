@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 853eec48961696b4985647d3fa8e11fa
+timeCreated: 1505508200
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/VFX/Ef_Enemy_FireRocket_01.prefab
+  uploadId: 201218

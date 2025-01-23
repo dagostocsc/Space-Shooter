@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 06ad427b8c8a148408ee395d817e3860
+timeCreated: 1505491124
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100466
+  packageName: Space Arcade - Enemy Ships
+  packageVersion: 1.0
+  assetPath: Assets/SpaceArcade/SpaceArcade - Enemy Ships/VFX/Ef_Enemy_GunFire_01.prefab
+  uploadId: 201218
