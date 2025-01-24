@@ -2,6 +2,8 @@ This 2D space shooter game is intended to deliver fast-paced action as players p
 
 Most of what I used is in the BackupPreFab Folder & NewPrefabs Folder
 
+I implented a functional mein menu, pause menu, and game over screen that is automatic when the player is destroyed. I attempted this project using my own assets as a means to create an innovative version of the original project.
+
 ![Screenshot 2025-01-23 100500](https://github.com/user-attachments/assets/a11eaa70-2f89-41b1-ae0e-757e919b8af7)
 ![Screenshot 2025-01-23 100454](https://github.com/user-attachments/assets/4d249f4b-8e9d-4fee-820b-5fe7855a0839)
 ![Screenshot 2025-01-23 100448](https://github.com/user-attachments/assets/34e5fec3-cccf-46f5-8291-d3dfc5c9d8ca)
