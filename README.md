@@ -16,6 +16,6 @@ I implented a functional mein menu, pause menu, and game over screen that is aut
 ![Screenshot 2025-01-23 100319](https://github.com/user-attachments/assets/73a47c5f-dd13-4fa7-8e3b-e7f0965f0504)
 ![Screenshot 2025-01-23 100313](https://github.com/user-attachments/assets/cb382e3d-99da-4e5e-8fbc-6e8d2c076326)
 ![Screenshot 2025-01-23 100257](https://github.com/user-attachments/assets/7a3329b3-b0e5-47a6-91c8-d2622cd9c1aa)
-![Screenshot 2025-01-23 101118](https://github.com/user-attachments/assets/75dd8ae0-e78d-4771-9b9a-021167106712)
 ![Screenshot 2025-01-15 215227](https://github.com/user-attachments/assets/a60cc1e8-f8a4-4392-ac2c-81e4d12844ca)
 ![Screenshot 2025-01-23 233517](https://github.com/user-attachments/assets/31ba5d93-d8b2-454a-ac9c-31a7a2296a96)
+![Screenshot 2025-01-23 233838](https://github.com/user-attachments/assets/4514f9cf-f434-488e-bac7-beff12cd5615)
