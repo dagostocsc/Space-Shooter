@@ -9,41 +9,42 @@ public class DestroybyContact1 : MonoBehaviour
     [SerializeField] private GameObject asteroidExplosion;
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.tag == "Boundary1")
+        if (other.tag == "Boundary1")
             return;
 
-        Debug.Log($"{name} is colliding with {collision.gameObject.name}");
-        if (collision.collider.gameObject.CompareTag("Player"))
+        Debug.Log($"{name} is colliding with {other.gameObject.name}");
+        if (other.gameObject.CompareTag("Player"))
         {
-            Instantiate(playerExplosion, collision.transform.position, collision.transform.rotation);
+            Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
         }
 
-        if (collision.collider.gameObject.CompareTag("EnemyShip"))
+        if (other.gameObject.CompareTag("EnemyShip"))
         {
-            Debug.Log("it damaged the Enemy Ship");
-            Instantiate(explosion, collision.transform.position, collision.transform.rotation);
-            Destroy(collision.gameObject);
+            Debug.Log("It damaged the Enemy Ship");
+            Instantiate(explosion, other.transform.position, other.transform.rotation);
+            Destroy(other.gameObject);
             Destroy(gameObject);
             ScoringSystem.Score += 10;
         }
 
-        if (collision.collider.gameObject.CompareTag("Enemies"))
+        if (other.gameObject.CompareTag("Enemies"))
         {
-            Debug.Log("it damaged the asteroid");
-            Instantiate(asteroidExplosion, collision.transform.position, collision.transform.rotation);
-            Destroy(collision.gameObject);
+            Debug.Log("It damaged the asteroid");
+            Instantiate(asteroidExplosion, other.transform.position, other.transform.rotation);
+            Destroy(other.gameObject);
             Destroy(gameObject);
             ScoringSystem.Score += 15;
         }
 
-        if (collision.collider.gameObject.CompareTag("EnemyBullet"))
+        if (other.gameObject.CompareTag("EnemyBullet"))
         {
             Destroy(gameObject);
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
     }
+
 
 }
 

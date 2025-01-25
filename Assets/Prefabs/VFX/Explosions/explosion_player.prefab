@@ -19311,8 +19311,8 @@ GameObject:
   - component: {fileID: 400010}
   - component: {fileID: 19800010}
   - component: {fileID: 19900010}
-  - component: {fileID: 11400002}
   - component: {fileID: 8200000}
+  - component: {fileID: 5149660955429030616}
   m_Layer: 0
   m_Name: explosion_player
   m_TagString: Untagged
@@ -24186,19 +24186,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3069907128af34efca9780c9aea75eb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifetime: 2
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24296,6 +24283,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5149660955429030616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2e25e35b078634e8ac5850e1105ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 3}
+  playerExplosion: {fileID: 100008}
+  asteroidExplosion: {fileID: 100004, guid: a6d58f54ce5934781962a4f887e834f3, type: 3}
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
