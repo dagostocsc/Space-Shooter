@@ -4,51 +4,38 @@ using UnityEngine;
 
 public class DestroybyContact1 : MonoBehaviour
 {
-    [SerializeField] public GameObject explosion;
-    [SerializeField] private GameObject playerExplosion;
-    [SerializeField] private GameObject asteroidExplosion;
-
+    [SerializeField] private GameObject asteroidExplosion; // Asteroid explosion effect
+    [SerializeField] private GameObject playerExplosion; // Player explosion effect
+    [SerializeField] private GameObject enemyExplosion; // Enemy ship explosion effect
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Boundary1")
+        Debug.Log($"{name} collided with {other.gameObject.name}");
+
+        if (other.CompareTag("Boundary1"))
             return;
 
-        Debug.Log($"{name} is colliding with {other.gameObject.name}");
-        if (other.gameObject.CompareTag("Player"))
+        // Handle player collision
+        if (other.CompareTag("Player"))
         {
             Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+            Destroy(other.gameObject); // Destroy player
         }
 
-        if (other.gameObject.CompareTag("EnemyShip"))
+        // Handle asteroid collision
+        if (other.CompareTag("Enemies"))
         {
-            Debug.Log("It damaged the Enemy Ship");
-            Instantiate(explosion, other.transform.position, other.transform.rotation);
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-            ScoringSystem.Score += 10;
-        }
-
-        if (other.gameObject.CompareTag("Enemies"))
-        {
-            Debug.Log("It damaged the asteroid");
             Instantiate(asteroidExplosion, other.transform.position, other.transform.rotation);
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-            ScoringSystem.Score += 15;
+            Destroy(other.gameObject); // Destroy asteroid
+            Destroy(gameObject); // Destroy bolt
         }
 
-        if (other.gameObject.CompareTag("EnemyBullet"))
+        // Handle enemy ship collision
+        if (other.CompareTag("EnemyShip"))
         {
-            Destroy(gameObject);
-            Destroy(other.gameObject);
+            Instantiate(enemyExplosion, other.transform.position, other.transform.rotation);
+            Destroy(other.gameObject); // Destroy enemy ship
+            Destroy(gameObject); // Destroy bolt
         }
     }
-
-
 }
-
-
-//obserer pattern
-//state machine
-//cpmmand pattern

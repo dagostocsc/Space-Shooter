@@ -15,13 +15,13 @@ public class Phealth : MonoBehaviour
         PH.SetMaxHealth(MaxplayerHealth);
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Enemies") || collision.gameObject.CompareTag("EnemyShip"))
+        if (other.gameObject.CompareTag("Enemies") || other.gameObject.CompareTag("EnemyShip"))
         {
             currentHealth -= damage1;
             PH.Health(currentHealth);
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
             if (currentHealth <= 0)
             {
                 Destroy(gameObject);

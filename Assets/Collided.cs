@@ -16,7 +16,7 @@ public class Collided : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bolt1"))
+        if (other.gameObject.CompareTag("EnemyBullet"))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
